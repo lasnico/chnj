@@ -1,0 +1,29 @@
+
+<script>
+    var contra= "admin";
+    contra = prompt ("ingrese su password")
+    
+    if(contra =="020718")
+    {
+        alert("TE AMO");
+        document.write("Redireccionando");
+        var pagina= "html/ju.html"
+        function redireccionar()
+            {
+                 location.href = pagina 
+             }
+        
+    setTimeout("redireccionar()", 0);
+    }
+   else
+    {
+        alert("incorrecto");
+        var pagina= "error.html"
+        function redireccionar()
+        {
+            location.href=pagina
+        }
+    
+    setTimeout("redireccinar()", 1);
+   }
+</script>
